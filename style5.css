@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:black;
+    padding: 10px 0;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation a {
+    color:yellowgreen;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    background-color: lightblue;
+  }
+  
+  main {
+    padding-top: 80px; 
+  }
+  
+  main h1 {
+    text-align: center;
+  }
+  
+  main p {
+    text-align: center;
+  }
